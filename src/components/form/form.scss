@@ -1,10 +1,9 @@
 $backgroundColor: #efefef;
 $radius: 40%;
 
-form {
-  display: inline-block;
-  margin: auto;
-  width: 200px;
+// form {
+//   display: inline-block;
+//   margin: auto;
 
   label {
     display: flex;
@@ -23,4 +22,25 @@ form {
       }
     }
   }
+// }
+
+.formBox {
+
+  margin: auto;
+  border: gray solid 2px;
+  
+
+}
+
+.allButtons {
+
+  background-color: lightblue;
+  border-radius: 5px;
+
+}
+
+.allButtons:hover {
+  background-color: rgb(202, 60, 31);
+  color: white;
+  padding: 5px 5px;
 }
