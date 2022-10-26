@@ -47,7 +47,7 @@ The application will be created with the following overall architecture and meth
 
 [codesandbox deployment STATE](https://codesandbox.io/p/github/SdMartinez13/resty/state?file=%2Fsrc%2Findex.js&selection=%5B%7B%22endColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22startColumn%22%3A1%2C%22startLineNumber%22%3A12%7D%5D&workspace=%257B%2522activeFileId%2522%253A%2522cl9npxqgn000clqgnhpkl3ygv%2522%252C%2522openFiles%2522%253A%255B%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522sidekickItems%2522%253A%255B%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522cl9ouvc2001vs3b6h71267nn9%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D)
 
-[codesandbox deployment EFFECT HOOKS]()
+[codesandbox deployment EFFECT HOOKS](https://codesandbox.io/p/github/SdMartinez13/resty/effect-hook?file=%2Fsrc%2Findex.js&selection=%5B%7B%22endColumn%22%3A1%2C%22endLineNumber%22%3A12%2C%22startColumn%22%3A1%2C%22startLineNumber%22%3A12%7D%5D&workspace=%257B%2522activeFileId%2522%253A%2522cl9npxqgn000clqgnhpkl3ygv%2522%252C%2522openFiles%2522%253A%255B%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522sidekickItems%2522%253A%255B%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522cl9q9o0os00ev3b6if6y9w8fx%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D)
 
 [GITHUB Repo](https://github.com/SdMartinez13/resty)
 
