@@ -28,13 +28,15 @@ $radius: 40%;
 
   margin: auto;
   border: gray solid 2px;
+  padding: 25px;
   
 
 }
 
 .allButtons {
 
-  background-color: lightblue;
+  background-color: blue;
+  color: white;
   border-radius: 5px;
 
 }
@@ -43,4 +45,13 @@ $radius: 40%;
   background-color: rgb(202, 60, 31);
   color: white;
   padding: 5px 5px;
+}
+
+.formInput {
+  margin: auto;
+  justify-content: space-between;
+}
+
+.spanButtons {
+  justify-content: space-between;
 }

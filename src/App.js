@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import './app.scss';
@@ -15,11 +15,22 @@ const App = () => {
   const [requestParams, setRequestParams] = useState({});
 
   const callApi = async (requestParams) => {
-    let newData = await axios.get('https://pokeapi.co/api/v2/pokemon')
-
-    setData(newData.data.results);
     setRequestParams(requestParams);
   }
+
+  useEffect(() => {
+    const getData = async () => {
+      if (requestParams.url) {
+        const response = await axios({
+          method: requestParams.method,
+          url: requestParams.url,
+        })
+        setData(response.data);
+      }
+    }
+    getData();
+  }, [requestParams]);
+
 
 
   return (
