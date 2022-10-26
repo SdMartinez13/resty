@@ -5,8 +5,7 @@ import Results from './index';
 describe('Testing the result component', () => {
   it('should render the Result', () => {
     let data = { 
-      banana: 'banana'
-      // potato: 'potato',
+      banana: 'banana',
     };
 
     render(<Results data={data} />);
