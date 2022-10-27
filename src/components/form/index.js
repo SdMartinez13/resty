@@ -41,6 +41,7 @@ const Form = (props) => {
             <input className="formInput" onChange={handleUrl} name='url' type='text' />
             <button className='allButtons' type="submit">GO!</button>
           </label>
+          <textarea className="text-area-box" onChange={(e) => setJSON(e.target.value)} type="text" placeholder="PUT/POST JSON here"/>
           <label className="methods">
             <span className='spanButtons' id="get" onClick={handleMethod}>GET</span>
             <span className='spanButtons' id="post" onClick={handleMethod}>POST</span>
