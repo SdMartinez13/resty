@@ -1,0 +1,46 @@
+.historyResults {
+  text-align: left;
+  overflow: scroll;
+  border: black solid 2px;
+  height: 25vh;
+  width: 50%;
+  background-color: lightgray;
+  position: relative;
+  left: 17%;
+  margin: 100px;;
+
+  // padding: 5%;
+
+
+  .historySection {
+    height: 65%;
+    width: 50%;
+
+  }
+
+  .h3-history {
+    text-align: center;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
+}

@@ -2,16 +2,17 @@
   text-align: left;
   overflow: scroll;
   border: black solid 2px;
-  height: 25%;
-  width: 30%;
+  height: 25vh;
+  width: 50%;
   background-color: lightgray;
-  position: absolute;
-  left: 35%;
-  // padding: 5%;
+  position: relative;
+  left: 17%;
+  margin: 100px;;
 }
 
 .resultsSection {
   height: 65%;
+  // width: 50%;
 
 }
 
