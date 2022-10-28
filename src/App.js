@@ -27,7 +27,7 @@ const App = () => {
         header: result.headers,
         data: result.data
       };
-      updateLoading(false);
+      // updateLoading(false);
       setData(data);
       updateHistory(state.requestParams, data);
     }
@@ -40,12 +40,12 @@ const App = () => {
       payload: requestParams,
     });
   }
-  function updateLoading(status) {
-    dispatch({
-      type: 'UPDATE_LOADING',
-      payload: status,
-    });
-  }
+  // function updateLoading(status) {
+  //   dispatch({
+  //     type: 'UPDATE_LOADING',
+  //     payload: status,
+  //   });
+  // }
   function setData(data) {
     dispatch({
       type: 'SET_DATA',
@@ -66,7 +66,7 @@ const App = () => {
   }
 
   function callApi(requestParams) {
-    updateLoading(true);
+    // updateLoading(true);
     setReqParams(requestParams);
   }
 
@@ -76,7 +76,7 @@ const App = () => {
       <div>Request Method: {state.requestParams.method}</div>
       <div>URL: {state.requestParams.url}</div>
       <Form handleApiCall={callApi} />
-      <Results data={state.data} loading={state.loading} />
+      <Results data={state.data}/>
       <History history={state.history} />
       <Footer />
     </>

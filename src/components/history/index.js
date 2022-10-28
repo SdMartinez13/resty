@@ -4,16 +4,22 @@ import './history.scss';
 function History(props) {
   return (
 
-    <section className="history-results">
+    <section className="historySection">
+
       <h3 className="h3-history">History</h3>
-      {(props.history.map((reqHistory, index) =>
-        <div className="history" key={index} >
+
+      <div className="historyResults">{(props.history.map((reqHistory, index) =>
+        <div key={index}>
           <span>{reqHistory.method}</span>
           <p>{reqHistory.url}</p>
         </div>
       ))}
+      </div>
+
     </section>
+
   );
+
 }
 
 export default History;

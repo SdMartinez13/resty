@@ -40,6 +40,7 @@ The application will be created with the following overall architecture and meth
 - Note the example here: https://testing-library.com/docs/react-testing-library/example-intro/
 - This shows how to use the msw package to setup a fake server that returns fake data in your
 - tests so that you can run tests without having to call an actual API
+- Replace any component state managements to use derived state from `useReducer` with a reducer function and intitial state.
 
 ## Deployment
 
@@ -56,4 +57,4 @@ The application will be created with the following overall architecture and meth
 ![uml26](/week6-labs.png)
 ![uml27](/27-labs.png)
 ![uml28](/LAB28.png)
-
+![uml29](/29lab.png)
